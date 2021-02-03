@@ -50,8 +50,13 @@
                               </div>
                               <div class="topbar-right">
                                    <ul>
+                                        <?php if($session->has('login_user_id')){ ?>
+                                        <li><a href="<?php echo base_url('panel'); ?>">پنل کاربری</a></li>
+                                        <li><a href="<?php echo base_url('panel/logout'); ?>">خروج</a></li>
+                                        <?php }else{ ?>
                                         <li><a href="<?php echo base_url('login'); ?>">ورود</a></li>
                                         <li><a href="<?php echo base_url('register'); ?>">ثبت‌ نام</a></li>
+                                        <?php } ?>
                                    </ul>
                               </div>
                          </div>
