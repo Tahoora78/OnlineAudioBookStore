@@ -25,5 +25,11 @@ class Author extends BaseController
 
 	//--------------------------------------------------------------------
 
+	public function create()
+	{
+		$this->auth();
+		return view('panel/author_create');
+	}
+
 	
 }
