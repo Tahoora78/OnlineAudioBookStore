@@ -27,7 +27,9 @@ class BooksModel extends Model{
     //--------------------------------------------------
 
     
-    
+    public function show_AllByIdUser($id_users){
+        return $this->where('id_users', $id_users)->findAll();
+    }
     
 
 }
