@@ -1,0 +1,368 @@
+CRITICAL - 2020-08-28 05:14:27 --> syntax error, unexpected '(', expecting '{'
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('users')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('users')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 05:15:25 --> syntax error, unexpected '(', expecting '{'
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('users')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('users')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 05:23:15 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(16): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create('mahdi', '952090887', '12345')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:24:22 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(16): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create('mahdi', '952090887', '12345')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:25:49 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(16): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create('mahdi', '952090887', '12345')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:28:33 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(16): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create('mahdi', '952090887', '12345')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:29:23 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(22): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create('mahdi', '952090887', '12345')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:29:25 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(22): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create('mahdi', '952090887', '12345')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:30:20 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(28): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create('mahdi', '952090887', '12345')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:30:45 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(28): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create('mahdi', '952090887', '12345')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:32:14 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(28): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create('mahdi', '952090887', '12345')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:32:29 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(28): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create('mahdi', '952090887', '12345')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:32:40 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(28): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create('mahdi', '952090887', '12345')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:33:19 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(27): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create('mahdi', '952090887', '12345')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:34:37 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(27): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create()
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:37:55 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(27): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create()
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:37:57 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(27): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create()
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:38:43 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(27): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create()
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:45:16 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(27): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create()
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:46:03 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(27): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create()
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:48:53 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(27): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create()
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:49:31 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(27): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create()
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:52:31 --> Allowed fields must be specified for model: App\Models\UsersModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(27): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create()
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->insert()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 05:54:28 --> Duplicate entry '952090887' for key 'username'
+#0 /home/romankha/professor.romankhan.com/code/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home/romankha/professor.romankhan.com/code/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home/romankha/professor.romankhan.com/code/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/romankha/professor.romankhan.com/code/app/Models/UsersModel.php(16): CodeIgniter\Model->insert(Array)
+#6 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(11): App\Models\UsersModel->create('mahdi', '952090887', '12345')
+#7 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->insert()
+#8 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-28 07:08:28 --> Undefined index: input_username
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/romankha/...', 15, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->check()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 07:08:57 --> Undefined index: input_username
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/romankha/...', 15, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->check()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 07:20:15 --> Undefined variable: _SESSION
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 1, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(14): view('lessons')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 07:20:24 --> Undefined variable: _SESSION
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 1, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(14): view('lessons')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 07:21:59 --> Undefined variable: _SESSION
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 1, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(14): view('lessons')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons('5')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 07:22:07 --> Undefined variable: _SESSION
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 1, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(14): view('lessons')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons('5')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 07:22:28 --> Undefined variable: _SESSION
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_student.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 2, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_student', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(17): view('lessons_student')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 07:23:51 --> Undefined variable: config
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_student.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 3, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_student', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(17): view('lessons_student')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 07:25:00 --> Undefined variable: config
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_student.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 3, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_student', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(17): view('lessons_student')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 07:25:32 --> Undefined variable: _SESSION
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 1, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(14): view('lessons')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 07:25:45 --> Undefined index: input_username
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/romankha/...', 15, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->check()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-28 07:25:56 --> Undefined variable: _SESSION
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 1, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(14): view('lessons')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 07:26:55 --> Undefined variable: _SESSION
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 1, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(14): view('lessons')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-28 07:40:14 --> Undefined variable: config
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_student.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 3, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_student', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(17): view('lessons_student')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,172 @@
+CRITICAL - 2020-09-03 12:38:33 --> Class Home does not exist
+#0 B:\soft\xampp\htdocs\sorosh\code\system\Debug\Toolbar\Collectors\Routes.php(107): ReflectionMethod->__construct('Home', '_remap')
+#1 B:\soft\xampp\htdocs\sorosh\code\system\Debug\Toolbar\Collectors\BaseCollector.php(307): CodeIgniter\Debug\Toolbar\Collectors\Routes->display()
+#2 B:\soft\xampp\htdocs\sorosh\code\system\Debug\Toolbar.php(128): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#3 B:\soft\xampp\htdocs\sorosh\code\system\Debug\Toolbar.php(353): CodeIgniter\Debug\Toolbar->run(1599120513.0027, 0.0319, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 B:\soft\xampp\htdocs\sorosh\code\system\Filters\DebugToolbar.php(78): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 B:\soft\xampp\htdocs\sorosh\code\system\Filters\Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#6 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('', 'after')
+#7 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 B:\soft\xampp\htdocs\sorosh\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-03 12:38:38 --> Class Home does not exist
+#0 B:\soft\xampp\htdocs\sorosh\code\system\Debug\Toolbar\Collectors\Routes.php(107): ReflectionMethod->__construct('Home', '_remap')
+#1 B:\soft\xampp\htdocs\sorosh\code\system\Debug\Toolbar\Collectors\BaseCollector.php(307): CodeIgniter\Debug\Toolbar\Collectors\Routes->display()
+#2 B:\soft\xampp\htdocs\sorosh\code\system\Debug\Toolbar.php(128): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#3 B:\soft\xampp\htdocs\sorosh\code\system\Debug\Toolbar.php(353): CodeIgniter\Debug\Toolbar->run(1599120518.125, 0.0186, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 B:\soft\xampp\htdocs\sorosh\code\system\Filters\DebugToolbar.php(78): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 B:\soft\xampp\htdocs\sorosh\code\system\Filters\Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#6 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('', 'after')
+#7 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 B:\soft\xampp\htdocs\sorosh\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-03 12:38:38 --> Class Home does not exist
+#0 B:\soft\xampp\htdocs\sorosh\code\system\Debug\Toolbar\Collectors\Routes.php(107): ReflectionMethod->__construct('Home', '_remap')
+#1 B:\soft\xampp\htdocs\sorosh\code\system\Debug\Toolbar\Collectors\BaseCollector.php(307): CodeIgniter\Debug\Toolbar\Collectors\Routes->display()
+#2 B:\soft\xampp\htdocs\sorosh\code\system\Debug\Toolbar.php(128): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#3 B:\soft\xampp\htdocs\sorosh\code\system\Debug\Toolbar.php(353): CodeIgniter\Debug\Toolbar->run(1599120518.2213, 0.0189, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 B:\soft\xampp\htdocs\sorosh\code\system\Filters\DebugToolbar.php(78): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 B:\soft\xampp\htdocs\sorosh\code\system\Filters\Filters.php(199): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#6 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(422): CodeIgniter\Filters\Filters->run('', 'after')
+#7 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 B:\soft\xampp\htdocs\sorosh\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-03 12:42:56 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\sorosh\code\app\Models\UsersModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 30, Array)
+#1 B:\soft\xampp\htdocs\sorosh\code\app\Controllers\Users.php(30): App\Models\UsersModel->check('', '')
+#2 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#3 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\sorosh\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 12:43:24 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\sorosh\code\app\Models\UsersModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 30, Array)
+#1 B:\soft\xampp\htdocs\sorosh\code\app\Controllers\Users.php(30): App\Models\UsersModel->check('', '')
+#2 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#3 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\sorosh\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 12:43:29 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\sorosh\code\app\Models\UsersModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 30, Array)
+#1 B:\soft\xampp\htdocs\sorosh\code\app\Controllers\Users.php(30): App\Models\UsersModel->check('d', 'dc')
+#2 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#3 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 B:\soft\xampp\htdocs\sorosh\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\sorosh\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 12:48:53 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\project\code\app\Models\UsersModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 30, Array)
+#1 B:\soft\xampp\htdocs\project\code\app\Controllers\Users.php(30): App\Models\UsersModel->check('', '')
+#2 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#3 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\project\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 12:49:30 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\project\code\app\Models\UsersModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 30, Array)
+#1 B:\soft\xampp\htdocs\project\code\app\Controllers\Users.php(30): App\Models\UsersModel->check('', '')
+#2 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#3 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\project\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 12:53:02 --> syntax error, unexpected ';', expecting ')'
+#0 B:\soft\xampp\htdocs\project\code\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('B:\\soft\\xampp\\h...')
+#1 B:\soft\xampp\htdocs\project\code\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 B:\soft\xampp\htdocs\project\code\app\Controllers\Users.php(28): spl_autoload_call('App\\Models\\User...')
+#4 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#5 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 B:\soft\xampp\htdocs\project\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-03 13:23:00 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\project\code\app\Models\UsersModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 29, Array)
+#1 B:\soft\xampp\htdocs\project\code\app\Controllers\Users.php(30): App\Models\UsersModel->check('', '')
+#2 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#3 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\project\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 13:25:32 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\project\code\app\Models\UsersModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 29, Array)
+#1 B:\soft\xampp\htdocs\project\code\app\Controllers\Users.php(36): App\Models\UsersModel->check('', '')
+#2 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#3 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\project\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 13:25:48 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\project\code\app\Models\UsersModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 29, Array)
+#1 B:\soft\xampp\htdocs\project\code\app\Controllers\Users.php(36): App\Models\UsersModel->check('', '')
+#2 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#3 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\project\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 13:25:48 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\project\code\app\Models\UsersModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 29, Array)
+#1 B:\soft\xampp\htdocs\project\code\app\Controllers\Users.php(36): App\Models\UsersModel->check('', '')
+#2 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#3 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\project\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 13:26:02 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\project\code\app\Models\UsersModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 29, Array)
+#1 B:\soft\xampp\htdocs\project\code\app\Controllers\Users.php(36): App\Models\UsersModel->check('', '')
+#2 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#3 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\project\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 13:34:02 --> Undefined variable: session
+#0 B:\soft\xampp\htdocs\project\code\app\Views\login.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\soft\\xampp\\h...', 49, Array)
+#1 B:\soft\xampp\htdocs\project\code\system\View\View.php(246): include('B:\\soft\\xampp\\h...')
+#2 B:\soft\xampp\htdocs\project\code\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 B:\soft\xampp\htdocs\project\code\app\Controllers\Home.php(12): view('login')
+#4 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 B:\soft\xampp\htdocs\project\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-03 13:34:46 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\project\code\app\Models\UsersModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 29, Array)
+#1 B:\soft\xampp\htdocs\project\code\app\Controllers\Users.php(36): App\Models\UsersModel->check('952', '')
+#2 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#3 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\project\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 13:35:29 --> syntax error, unexpected ';', expecting ')'
+#0 B:\soft\xampp\htdocs\project\code\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('messages/create')
+#1 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('messages/create')
+#2 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\soft\xampp\htdocs\project\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-03 13:39:21 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\project\code\app\Models\UsersModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 29, Array)
+#1 B:\soft\xampp\htdocs\project\code\app\Controllers\Users.php(36): App\Models\UsersModel->check('sd', '')
+#2 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#3 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\project\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 13:39:31 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\project\code\app\Models\UsersModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 29, Array)
+#1 B:\soft\xampp\htdocs\project\code\app\Controllers\Users.php(36): App\Models\UsersModel->check('2', '')
+#2 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#3 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\project\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 13:40:17 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\project\code\app\Models\UsersModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 29, Array)
+#1 B:\soft\xampp\htdocs\project\code\app\Controllers\Users.php(36): App\Models\UsersModel->check('sd', '')
+#2 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(918): App\Controllers\Users->check()
+#3 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 B:\soft\xampp\htdocs\project\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\project\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

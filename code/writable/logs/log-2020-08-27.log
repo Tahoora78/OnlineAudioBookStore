@@ -1,0 +1,129 @@
+CRITICAL - 2020-08-27 13:00:25 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel/take_cour...')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel/take_cour...')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:00:51 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel/take_cour...')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel/take_cour...')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:01:47 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel/take_cour...')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel/take_cour...')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:02:36 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel/take_cour...')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel/take_cour...')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:02:56 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:03:12 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:03:22 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:04:47 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:04:58 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:04:59 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:05:41 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:05:44 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:06:25 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:06:28 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:07:19 --> Class 'App\Controllers\BaseControllers' not found
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(583): include_once()
+#1 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel/take_cour...')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel/take_cour...')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-27 13:31:57 --> Invalid file: login.php
+#0 /home/romankha/professor.romankhan.com/code/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#2 /home/romankha/professor.romankhan.com/code/app/Controllers/Home.php(7): view('login')
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Home->index()
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

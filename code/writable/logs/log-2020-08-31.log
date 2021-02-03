@@ -1,0 +1,14 @@
+CRITICAL - 2020-08-31 01:13:03 --> Undefined variable: session
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 35, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->check()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-31 01:13:28 --> Undefined variable: session
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 35, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->check()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

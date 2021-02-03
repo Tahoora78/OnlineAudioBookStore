@@ -1,0 +1,129 @@
+CRITICAL - 2021-02-02 13:59:44 --> Invalid file: site.php
+#0 B:\soft\xampp\htdocs\book\code\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('site.php')
+#1 B:\soft\xampp\htdocs\book\code\system\Common.php(1119): CodeIgniter\View\View->render('site', Array, true)
+#2 B:\soft\xampp\htdocs\book\code\app\Controllers\Home.php(12): view('site')
+#3 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-02 15:34:25 --> Unknown column 'id_fields' in 'field list'
+#0 B:\soft\xampp\htdocs\book\code\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `id`, `p...')
+#1 B:\soft\xampp\htdocs\book\code\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `p...')
+#2 B:\soft\xampp\htdocs\book\code\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `p...')
+#3 B:\soft\xampp\htdocs\book\code\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `p...', Array, false)
+#4 B:\soft\xampp\htdocs\book\code\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 B:\soft\xampp\htdocs\book\code\app\Models\UsersModel.php(28): CodeIgniter\Model->first()
+#6 B:\soft\xampp\htdocs\book\code\app\Controllers\Register.php(30): App\Models\UsersModel->check('fgdfg', 'sadasd')
+#7 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(918): App\Controllers\Register->create()
+#8 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-02 15:34:36 --> Unknown column 'id_fields' in 'field list'
+#0 B:\soft\xampp\htdocs\book\code\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `id`, `p...')
+#1 B:\soft\xampp\htdocs\book\code\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `p...')
+#2 B:\soft\xampp\htdocs\book\code\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `p...')
+#3 B:\soft\xampp\htdocs\book\code\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `p...', Array, false)
+#4 B:\soft\xampp\htdocs\book\code\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 B:\soft\xampp\htdocs\book\code\app\Models\UsersModel.php(28): CodeIgniter\Model->first()
+#6 B:\soft\xampp\htdocs\book\code\app\Controllers\Register.php(30): App\Models\UsersModel->check('df', 'gf')
+#7 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(918): App\Controllers\Register->create()
+#8 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#9 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-02 15:40:50 --> Undefined variable: show
+#0 B:\soft\xampp\htdocs\book\code\app\Controllers\Register.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\soft\\xampp\\h...', 41, Array)
+#1 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(918): App\Controllers\Register->create()
+#2 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 15:42:03 --> Trying to access array offset on value of type int
+#0 B:\soft\xampp\htdocs\book\code\app\Controllers\Register.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 41, Array)
+#1 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(918): App\Controllers\Register->create()
+#2 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 15:42:26 --> Trying to access array offset on value of type int
+#0 B:\soft\xampp\htdocs\book\code\app\Controllers\Register.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 42, Array)
+#1 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(918): App\Controllers\Register->create()
+#2 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 15:51:09 --> Undefined variable: session
+#0 B:\soft\xampp\htdocs\book\code\app\Controllers\Register.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\soft\\xampp\\h...', 9, Array)
+#1 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(918): App\Controllers\Register->index()
+#2 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 16:01:10 --> Undefined index: input_username
+#0 B:\soft\xampp\htdocs\book\code\app\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'B:\\soft\\xampp\\h...', 27, Array)
+#1 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(918): App\Controllers\Login->check()
+#2 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 16:01:32 --> Call to undefined method App\Models\UsersModel::check
+#0 B:\soft\xampp\htdocs\book\code\app\Controllers\Login.php(38): CodeIgniter\Model->__call('check', Array)
+#1 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(918): App\Controllers\Login->check()
+#2 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-02 16:03:46 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\book\code\app\Models\UsersModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 28, Array)
+#1 B:\soft\xampp\htdocs\book\code\app\Controllers\Login.php(36): App\Models\UsersModel->check_login('ds', 'fdfd')
+#2 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(918): App\Controllers\Login->check()
+#3 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 16:07:19 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\book\code\app\Models\UsersModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 27, Array)
+#1 B:\soft\xampp\htdocs\book\code\app\Controllers\Login.php(36): App\Models\UsersModel->check_login('\xD8\xA8\xDB\x8C\xD8\xA8\xDB\x8C\xD8\xA8\xDB\x8C', '\xD9\x84\xD8\xA8\xD9\x84\xD8\xA8\xD9\x84\xD8\xA8')
+#2 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(918): App\Controllers\Login->check()
+#3 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 16:18:25 --> Class 'App\Controllers\Panel\BaseController' not found
+#0 B:\soft\xampp\htdocs\book\code\system\Router\Router.php(583): include_once()
+#1 B:\soft\xampp\htdocs\book\code\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('panel/logout')
+#2 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel/logout')
+#3 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-02 16:26:08 --> Undefined variable: session
+#0 B:\soft\xampp\htdocs\book\code\app\Views\layouts\site.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'B:\\soft\\xampp\\h...', 158, Array)
+#1 B:\soft\xampp\htdocs\book\code\system\View\View.php(246): include('B:\\soft\\xampp\\h...')
+#2 B:\soft\xampp\htdocs\book\code\system\View\View.php(257): CodeIgniter\View\View->render('layouts/site', Array, true)
+#3 B:\soft\xampp\htdocs\book\code\system\Common.php(1119): CodeIgniter\View\View->render('site/home', Array, true)
+#4 B:\soft\xampp\htdocs\book\code\app\Controllers\Home.php(7): view('site/home')
+#5 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#6 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-02 16:26:56 --> Trying to access array offset on value of type null
+#0 B:\soft\xampp\htdocs\book\code\app\Views\layouts\site.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'B:\\soft\\xampp\\h...', 164, Array)
+#1 B:\soft\xampp\htdocs\book\code\system\View\View.php(246): include('B:\\soft\\xampp\\h...')
+#2 B:\soft\xampp\htdocs\book\code\system\View\View.php(257): CodeIgniter\View\View->render('layouts/site', Array, true)
+#3 B:\soft\xampp\htdocs\book\code\system\Common.php(1119): CodeIgniter\View\View->render('site/home', Array, true)
+#4 B:\soft\xampp\htdocs\book\code\app\Controllers\Home.php(7): view('site/home')
+#5 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#6 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-02 16:35:28 --> Call to undefined method App\Controllers\Panel\Logout::auth()
+#0 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(918): App\Controllers\Panel\Logout->index()
+#1 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel\Logout))
+#2 B:\soft\xampp\htdocs\book\code\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 B:\soft\xampp\htdocs\book\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

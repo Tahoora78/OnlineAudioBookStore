@@ -1,0 +1,956 @@
+CRITICAL - 2020-08-30 02:07:12 --> Undefined offset: 5
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/romankha/...', 42, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->change_password()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 02:08:33 --> syntax error, unexpected 'login_me_id' (T_STRING), expecting ']'
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('users/change_pa...')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('users/change_pa...')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 02:08:59 --> Undefined offset: 5
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Users.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/romankha/...', 42, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Users->change_password()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 02:22:19 --> Call to undefined method App\Models\TakeModel::show_all
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(38): CodeIgniter\Model->__call('show_all', Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 02:23:03 --> Call to undefined method App\Models\TakeModel::show_all
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(38): CodeIgniter\Model->__call('show_all', Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 02:30:32 --> syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel/lessons/3')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel/lessons/3')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 02:30:35 --> syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel/lessons')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel/lessons')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 02:30:40 --> syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('panel/lessons')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('panel/lessons')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 02:46:30 --> syntax error, unexpected '=', expecting ')'
+#0 /home/romankha/professor.romankhan.com/code/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/home/romankha/...')
+#1 /home/romankha/professor.romankhan.com/code/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Take...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Take...')
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(38): spl_autoload_call('App\\Models\\Take...')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 02:47:00 --> Unknown column 'take.presentation_id' in 'on clause'
+#0 /home/romankha/professor.romankhan.com/code/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `lessons...')
+#1 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lessons...')
+#2 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lessons...')
+#3 /home/romankha/professor.romankhan.com/code/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `lessons...', Array, false)
+#4 /home/romankha/professor.romankhan.com/code/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/romankha/professor.romankhan.com/code/app/Models/TakeModel.php(36): CodeIgniter\Model->findAll()
+#6 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(39): App\Models\TakeModel->show_all('5')
+#7 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#8 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#9 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-30 02:47:14 --> Unknown column 'take.presentation_id' in 'on clause'
+#0 /home/romankha/professor.romankhan.com/code/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `lessons...')
+#1 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lessons...')
+#2 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lessons...')
+#3 /home/romankha/professor.romankhan.com/code/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `lessons...', Array, false)
+#4 /home/romankha/professor.romankhan.com/code/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/romankha/professor.romankhan.com/code/app/Models/TakeModel.php(36): CodeIgniter\Model->findAll()
+#6 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(39): App\Models\TakeModel->show_all('3')
+#7 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#8 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#9 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-30 02:51:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_presentation`
+FROM `take`
+JOIN `presentation` ON `presentation`.`id` = `tak' at line 1
+#0 /home/romankha/professor.romankhan.com/code/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `lessons...')
+#1 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `lessons...')
+#2 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `lessons...')
+#3 /home/romankha/professor.romankhan.com/code/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `lessons...', Array, false)
+#4 /home/romankha/professor.romankhan.com/code/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/romankha/professor.romankhan.com/code/app/Models/TakeModel.php(36): CodeIgniter\Model->findAll()
+#6 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(39): App\Models\TakeModel->show_all('5')
+#7 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#8 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#9 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-30 03:01:52 --> Undefined variable: all_lessons
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 12, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(40): view('lessons', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 03:02:30 --> Undefined variable: all_lessons
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 12, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(40): view('lessons', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 03:03:24 --> Undefined variable: all_lessons
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 12, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(40): view('lessons', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 03:03:25 --> Undefined variable: all_lessons
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 12, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(40): view('lessons', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 03:05:30 --> syntax error, unexpected ''name]; ?></a>' (T_ENCAPSED_AND_WHITESPACE), expecting ']'
+#0 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#1 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(40): view('lessons', Array)
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-30 03:05:32 --> syntax error, unexpected ''name]; ?></a>' (T_ENCAPSED_AND_WHITESPACE), expecting ']'
+#0 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#1 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(40): view('lessons', Array)
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-30 03:05:38 --> syntax error, unexpected ''name]; ?></a>' (T_ENCAPSED_AND_WHITESPACE), expecting ']'
+#0 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#1 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(40): view('lessons', Array)
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-30 03:05:39 --> syntax error, unexpected ''name]; ?></a>' (T_ENCAPSED_AND_WHITESPACE), expecting ']'
+#0 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#1 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(40): view('lessons', Array)
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-30 03:05:43 --> syntax error, unexpected ''name]; ?></a>' (T_ENCAPSED_AND_WHITESPACE), expecting ']'
+#0 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#1 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(40): view('lessons', Array)
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-30 04:00:19 --> Undefined variable: all_lessons
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 38, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 04:00:35 --> Undefined variable: all_lessons
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 38, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 04:02:03 --> Undefined variable: all_lessons
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 38, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 04:02:07 --> Undefined variable: all_lessons
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 38, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 05:23:33 --> Undefined variable: show_allPrefessorClass
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 42, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 05:24:07 --> Undefined variable: show_allPrefessorClass
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 42, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 05:24:25 --> Undefined variable: show_allPrefessorClass
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 42, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 05:24:28 --> Undefined variable: show_allPrefessorClass
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 42, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 05:30:40 --> count(): Parameter must be an array or an object that implements Countable
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', '/home/romankha/...', 9, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(42): view('lessons', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 05:52:17 --> Column 'id_fields' in where clause is ambiguous
+#0 /home/romankha/professor.romankhan.com/code/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `present...')
+#1 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `present...')
+#2 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `present...')
+#3 /home/romankha/professor.romankhan.com/code/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `present...', Array, false)
+#4 /home/romankha/professor.romankhan.com/code/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/romankha/professor.romankhan.com/code/app/Models/LessonsModel.php(21): CodeIgniter\Model->findAll()
+#6 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(22): App\Models\LessonsModel->show_allPresentation('1')
+#7 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#8 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#9 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-30 05:52:18 --> Column 'id_fields' in where clause is ambiguous
+#0 /home/romankha/professor.romankhan.com/code/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `present...')
+#1 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `present...')
+#2 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `present...')
+#3 /home/romankha/professor.romankhan.com/code/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `present...', Array, false)
+#4 /home/romankha/professor.romankhan.com/code/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/romankha/professor.romankhan.com/code/app/Models/LessonsModel.php(21): CodeIgniter\Model->findAll()
+#6 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(22): App\Models\LessonsModel->show_allPresentation('1')
+#7 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#8 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#9 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-30 05:52:27 --> Column 'id_fields' in where clause is ambiguous
+#0 /home/romankha/professor.romankhan.com/code/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `present...')
+#1 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `present...')
+#2 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `present...')
+#3 /home/romankha/professor.romankhan.com/code/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `present...', Array, false)
+#4 /home/romankha/professor.romankhan.com/code/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/romankha/professor.romankhan.com/code/app/Models/LessonsModel.php(21): CodeIgniter\Model->findAll()
+#6 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(22): App\Models\LessonsModel->show_allPresentation('1')
+#7 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#8 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#9 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-30 05:53:17 --> Column 'id_fields' in where clause is ambiguous
+#0 /home/romankha/professor.romankhan.com/code/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `present...')
+#1 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `present...')
+#2 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `present...')
+#3 /home/romankha/professor.romankhan.com/code/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `present...', Array, false)
+#4 /home/romankha/professor.romankhan.com/code/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/romankha/professor.romankhan.com/code/app/Models/LessonsModel.php(21): CodeIgniter\Model->findAll()
+#6 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(22): App\Models\LessonsModel->show_allPresentation('1')
+#7 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#8 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#9 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-30 05:53:19 --> Column 'id_fields' in where clause is ambiguous
+#0 /home/romankha/professor.romankhan.com/code/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `present...')
+#1 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `present...')
+#2 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `present...')
+#3 /home/romankha/professor.romankhan.com/code/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `present...', Array, false)
+#4 /home/romankha/professor.romankhan.com/code/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/romankha/professor.romankhan.com/code/app/Models/LessonsModel.php(21): CodeIgniter\Model->findAll()
+#6 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(22): App\Models\LessonsModel->show_allPresentation('1')
+#7 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#8 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#9 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-30 05:54:32 --> Column 'id_fields' in where clause is ambiguous
+#0 /home/romankha/professor.romankhan.com/code/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `present...')
+#1 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `present...')
+#2 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `present...')
+#3 /home/romankha/professor.romankhan.com/code/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `present...', Array, false)
+#4 /home/romankha/professor.romankhan.com/code/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/romankha/professor.romankhan.com/code/app/Models/LessonsModel.php(21): CodeIgniter\Model->findAll()
+#6 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(22): App\Models\LessonsModel->show_allPresentation('1')
+#7 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#8 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#9 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-30 05:54:34 --> Column 'id_fields' in where clause is ambiguous
+#0 /home/romankha/professor.romankhan.com/code/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `present...')
+#1 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `present...')
+#2 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `present...')
+#3 /home/romankha/professor.romankhan.com/code/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `present...', Array, false)
+#4 /home/romankha/professor.romankhan.com/code/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/romankha/professor.romankhan.com/code/app/Models/LessonsModel.php(21): CodeIgniter\Model->findAll()
+#6 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(22): App\Models\LessonsModel->show_allPresentation('1')
+#7 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#8 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#9 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-30 05:54:37 --> Column 'id_fields' in where clause is ambiguous
+#0 /home/romankha/professor.romankhan.com/code/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `present...')
+#1 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `present...')
+#2 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `present...')
+#3 /home/romankha/professor.romankhan.com/code/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `present...', Array, false)
+#4 /home/romankha/professor.romankhan.com/code/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/romankha/professor.romankhan.com/code/app/Models/LessonsModel.php(21): CodeIgniter\Model->findAll()
+#6 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(22): App\Models\LessonsModel->show_allPresentation('1')
+#7 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#8 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#9 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-30 05:55:19 --> Column 'id_fields' in where clause is ambiguous
+#0 /home/romankha/professor.romankhan.com/code/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `present...')
+#1 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `present...')
+#2 /home/romankha/professor.romankhan.com/code/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `present...')
+#3 /home/romankha/professor.romankhan.com/code/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `present...', Array, false)
+#4 /home/romankha/professor.romankhan.com/code/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/romankha/professor.romankhan.com/code/app/Models/LessonsModel.php(21): CodeIgniter\Model->findAll()
+#6 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(22): App\Models\LessonsModel->show_allPresentation('1')
+#7 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#8 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#9 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-08-30 06:06:22 --> Undefined variable: LessonModel
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 21, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 06:06:26 --> Undefined variable: LessonModel
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 21, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 06:07:00 --> Undefined variable: LessonModel
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 21, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 06:08:42 --> Undefined variable: LessonModel
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 21, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 06:08:50 --> Undefined variable: LessonModel
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 21, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 06:09:04 --> syntax error, unexpected end of file
+#0 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('take_course', Array, true)
+#1 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(22): view('take_course', Array)
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-30 06:09:11 --> syntax error, unexpected end of file
+#0 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('take_course', Array, true)
+#1 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(22): view('take_course', Array)
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-30 06:09:25 --> Undefined variable: row
+#0 /home/romankha/professor.romankhan.com/code/app/Views/take_course.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 19, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('take_course', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(22): view('take_course', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 06:26:52 --> Function name must be a string
+#0 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Take->create()
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Take))
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-30 06:27:29 --> Function name must be a string
+#0 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Take->create()
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Take))
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-30 06:41:56 --> Undefined index: id
+#0 /home/romankha/professor.romankhan.com/code/app/Views/take_course.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/romankha/...', 25, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('take_course', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(25): view('take_course', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 06:44:46 --> Undefined variable: lessons
+#0 /home/romankha/professor.romankhan.com/code/app/Views/take_course.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 25, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('take_course', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(28): view('take_course', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 06:46:10 --> syntax error, unexpected '<'
+#0 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('take_course', Array, true)
+#1 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(28): view('take_course', Array)
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-30 06:47:04 --> syntax error, unexpected '?>'
+#0 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('take_course', Array, true)
+#1 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(28): view('take_course', Array)
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-30 06:47:16 --> Undefined variable: lessons
+#0 /home/romankha/professor.romankhan.com/code/app/Views/take_course.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 25, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('take_course', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(28): view('take_course', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 06:50:47 --> Undefined variable: lessons
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 28, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 06:52:58 --> Undefined variable: lessons
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 28, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 06:53:18 --> Undefined variable: lessons
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 28, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 06:53:37 --> Undefined variable: lessons
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 28, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->take_course()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 08:33:36 --> Call to a member function findAll() on null
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(65): App\Models\TakeModel->show_allStudents('$id')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('3')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 08:35:29 --> Call to a member function findAll() on null
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(65): App\Models\TakeModel->show_allStudents('$id')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('9')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 08:36:25 --> Call to a member function findAll() on null
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(65): App\Models\TakeModel->show_allStudents('$id')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('9')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 08:36:58 --> Call to a member function count() on null
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(65): App\Models\TakeModel->show_allStudents('$id')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('9')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 08:38:11 --> Call to a member function findAll() on null
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(65): App\Models\TakeModel->show_allStudents('$id')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('9')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 08:38:48 --> Call to a member function findAll() on null
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(65): App\Models\TakeModel->show_allStudents('$id')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('9')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 08:40:55 --> Call to a member function findAll() on null
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(65): App\Models\TakeModel->show_allStudents('$id')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('11')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 08:42:29 --> Call to a member function findAll() on null
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(65): App\Models\TakeModel->show_allStudents('$id')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('9')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 08:43:17 --> Call to a member function findAll() on null
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(65): App\Models\TakeModel->show_allStudents('9')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('9')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 08:43:22 --> Call to a member function findAll() on null
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(65): App\Models\TakeModel->show_allStudents('9')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('9')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 08:43:32 --> Call to a member function findAll() on null
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(65): App\Models\TakeModel->show_allStudents('11')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('11')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 08:43:57 --> Call to a member function findAll() on null
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(65): App\Models\TakeModel->show_allStudents('11')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('11')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 08:51:39 --> Undefined index: id_presentation
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_student.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/romankha/...', 10, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_student', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(66): view('lessons_student', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('4')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 08:52:52 --> Undefined index: id
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_student.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/romankha/...', 10, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_student', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(66): view('lessons_student', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('4')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 08:59:15 --> Undefined variable: id_users
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 67, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('4')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 08:59:46 --> Undefined variable: session
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 66, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('4')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 09:00:06 --> Undefined variable: id
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_student.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 10, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_student', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(74): view('lessons_student', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('4')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 09:00:44 --> Undefined variable: id
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_student.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 10, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_student', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(74): view('lessons_student', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('4')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 09:02:02 --> Undefined variable: id
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_student.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 10, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_student', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(74): view('lessons_student', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('4')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 09:02:04 --> Undefined variable: id
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_student.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 10, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_student', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(74): view('lessons_student', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('11')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 09:02:52 --> Undefined variable: id
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_student.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 10, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_student', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(74): view('lessons_student', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('11')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 09:02:54 --> Undefined variable: id
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_student.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 10, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_student', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(74): view('lessons_student', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons_student('11')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 09:02:58 --> unlink(/home/romankha/professor.romankhan.com/code/writable/debugbar/debugbar_1598794512.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/ro...', '/home/romankha/...', 106, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/Debug/Toolbar/Collectors/History.php(106): unlink('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1598796177, 20)
+#3 /home/romankha/professor.romankhan.com/code/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/romankha/professor.romankhan.com/code/app/Config/Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/romankha/professor.romankhan.com/code/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-08-30 09:39:15 --> Function name must be a string
+#0 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-30 09:39:26 --> Function name must be a string
+#0 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-30 09:39:37 --> Function name must be a string
+#0 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-30 09:44:45 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$name
+#0 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-30 09:44:56 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$name
+#0 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-30 09:45:36 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$name
+#0 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-08-30 10:01:36 --> Undefined variable: is_users
+#0 /home/romankha/professor.romankhan.com/code/app/Models/MessagesModel.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 8, Array)
+#1 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(21): App\Models\MessagesModel->create('5', 'dss', 'birthday.png')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-30 10:02:01 --> Allowed fields must be specified for model: App\Models\MessagesModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mess...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/MessagesModel.php(13): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(21): App\Models\MessagesModel->create('5', 'dss', 'birthday_1.png')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 10:02:22 --> Allowed fields must be specified for model: App\Models\MessagesModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mess...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/MessagesModel.php(13): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(21): App\Models\MessagesModel->create('5', 'dsfsd', 'birthday_2.png')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 10:06:01 --> Allowed fields must be specified for model: App\Models\MessagesModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mess...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/MessagesModel.php(14): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(21): App\Models\MessagesModel->create('5', 'vvvv', 'birthday_5.png', '9')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 10:06:36 --> Allowed fields must be specified for model: App\Models\MessagesModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mess...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/MessagesModel.php(14): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(21): App\Models\MessagesModel->create('3', '\xD8\xB3\xD9\x84\xD8\xA7\xD9\x85', 'avatar-375-4563...', '11')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 10:07:00 --> The original file is not a valid file.
+#0 /home/romankha/professor.romankhan.com/code/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(16): CodeIgniter\HTTP\Files\UploadedFile->move('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-30 10:08:07 --> Allowed fields must be specified for model: App\Models\MessagesModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mess...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/MessagesModel.php(14): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(21): App\Models\MessagesModel->create('5', 'vvvv', NULL, '9')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 10:08:24 --> Allowed fields must be specified for model: App\Models\MessagesModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mess...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/MessagesModel.php(14): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(21): App\Models\MessagesModel->create('3', '55555', NULL, '11')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 10:08:24 --> Allowed fields must be specified for model: App\Models\MessagesModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mess...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/MessagesModel.php(14): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(21): App\Models\MessagesModel->create('5', 'cc', NULL, '9')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 10:11:04 --> Allowed fields must be specified for model: App\Models\MessagesModel
+#0 /home/romankha/professor.romankhan.com/code/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Mess...')
+#1 /home/romankha/professor.romankhan.com/code/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /home/romankha/professor.romankhan.com/code/app/Models/MessagesModel.php(15): CodeIgniter\Model->insert(Array)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(21): App\Models\MessagesModel->create('5', 'cc', NULL, '9')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 10:47:08 --> A non-numeric value encountered
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_single.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/romankha/...', 26, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_single', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(55): view('lessons_single', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons('9')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 10:47:37 --> Undefined variable: row
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_single.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 28, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_single', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(55): view('lessons_single', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons('9')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 10:48:04 --> A non-numeric value encountered
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_single.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/romankha/...', 26, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_single', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(55): view('lessons_single', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons('9')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 10:48:30 --> A non-numeric value encountered
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_single.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/romankha/...', 26, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_single', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(55): view('lessons_single', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons('9')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 10:48:41 --> A non-numeric value encountered
+#0 /home/romankha/professor.romankhan.com/code/app/Views/lessons_single.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/romankha/...', 26, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/View/View.php(246): include('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_single', Array, true)
+#3 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(55): view('lessons_single', Array)
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons('9')
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#6 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-08-30 10:53:12 --> Undefined index: id_pres
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/romankha/...', 13, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 10:53:45 --> The original file is not a valid file.
+#0 /home/romankha/professor.romankhan.com/code/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(16): CodeIgniter\HTTP\Files\UploadedFile->move('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-30 10:54:24 --> The original file is not a valid file.
+#0 /home/romankha/professor.romankhan.com/code/system/HTTP/Files/UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(16): CodeIgniter\HTTP\Files\UploadedFile->move('/home/romankha/...')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-08-30 10:54:58 --> Undefined index: id_pres
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/romankha/...', 13, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 10:58:28 --> syntax error, unexpected '$file' (T_VARIABLE)
+#0 /home/romankha/professor.romankhan.com/code/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('messages/create')
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('messages/create')
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 10:59:08 --> Undefined variable: isset
+#0 /home/romankha/professor.romankhan.com/code/app/Controllers/Messages.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/romankha/...', 15, Array)
+#1 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Messages->create()
+#2 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Messages))
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-08-30 11:31:20 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /home/romankha/professor.romankhan.com/code/system/View/View.php(257): CodeIgniter\View\View->render('layouts/panel', Array, true)
+#1 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_single', Array, true)
+#2 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(55): view('lessons_single', Array)
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons('9')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-30 11:32:40 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /home/romankha/professor.romankhan.com/code/system/View/View.php(257): CodeIgniter\View\View->render('layouts/panel', Array, true)
+#1 /home/romankha/professor.romankhan.com/code/system/Common.php(1119): CodeIgniter\View\View->render('lessons_single', Array, true)
+#2 /home/romankha/professor.romankhan.com/code/app/Controllers/Panel.php(55): view('lessons_single', Array)
+#3 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(918): App\Controllers\Panel->lessons('9')
+#4 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+#5 /home/romankha/professor.romankhan.com/code/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/romankha/professor.romankhan.com/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-08-30 11:41:05 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-30 11:45:41 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
