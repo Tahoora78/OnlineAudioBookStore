@@ -27,7 +27,16 @@
                </div>
 
                <div class="col-md-2 col-lg-2 col-sm-6 m-b30">
-                    
+                    <div class="cours-bx">
+                         <a href="https://romankhan.com/book/3616/tond-bad">
+                              <div class="action-box">
+                                   <img src="https://romankhan.com/image/book/thumbnail/15879568199001.jpg" alt="">
+                              </div>
+                              <div class="info-bx text-center">
+                                   <span>تندباد</span>
+                              </div>
+                         </a>
+                    </div>
                </div>
 
           </div>
