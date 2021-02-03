@@ -17,5 +17,13 @@ class Author extends BaseController
 
 	//--------------------------------------------------------------------
 
+	public function income()
+	{
+		$this->auth();
+		return view('panel/author_income');
+	}
+
+	//--------------------------------------------------------------------
+
 	
 }
