@@ -26,10 +26,10 @@ class BooksModel extends Model{
     
     //--------------------------------------------------
 
-    
-    public function show_AllByIdUser($id_users){
-        return $this->where('id_users', $id_users)->findAll();
+    public function update_views($id){
+        return $this->where('id', $id)->increment('views');
     }
+    
     
 
 }
