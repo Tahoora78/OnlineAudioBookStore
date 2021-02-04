@@ -30,6 +30,17 @@ class BooksModel extends Model{
         return $this->where('id', $id)->increment('views');
     }
     
+    public function show_AllByIdUser($id_users){
+        return $this->where('id_users', $id_users)->findAll();
+    }
+
+    public function show_All(){
+        return $this->findAll();
+    }
     
+
+    public function show_AllById($id){
+        return $this->where('id', $id)->first();
+    }
 
 }
