@@ -13,31 +13,20 @@
      <div class="widget-inner">
           <div class="row">
 
+               <?php foreach($book as $rows){ ?>
                <div class="col-md-2 col-lg-2 col-sm-6 m-b30">
                     <div class="cours-bx">
-                         <a href="https://romankhan.com/book/3616/tond-bad">
+                         <a href="<?php echo base_url('book/show/'.$rows['id']) ?>" target="_blank">
                               <div class="action-box">
-                                   <img src="https://romankhan.com/image/book/thumbnail/15879568199001.jpg" alt="">
+                                   <img src="<?php echo base_url('/upload/cover/'.$rows['cover']); ?>" alt="">
                               </div>
                               <div class="info-bx text-center">
-                                   <span>تندباد</span>
+                                   <span><?php echo $rows['title']; ?></span>
                               </div>
                          </a>
                     </div>
                </div>
-
-               <div class="col-md-2 col-lg-2 col-sm-6 m-b30">
-                    <div class="cours-bx">
-                         <a href="https://romankhan.com/book/3616/tond-bad">
-                              <div class="action-box">
-                                   <img src="https://romankhan.com/image/book/thumbnail/15879568199001.jpg" alt="">
-                              </div>
-                              <div class="info-bx text-center">
-                                   <span>تندباد</span>
-                              </div>
-                         </a>
-                    </div>
-               </div>
+               <?php } ?>
 
           </div>
      </div>
