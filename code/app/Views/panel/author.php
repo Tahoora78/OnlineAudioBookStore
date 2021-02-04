@@ -24,7 +24,8 @@
                                    <img src="<?php echo base_url('/upload/cover/'.$rows['cover']); ?>" alt="">
                               </div>
                               <div class="info-bx text-center">
-                                   <span><?php echo $rows['title']; ?></span>
+                              <span><?php echo $rows['title']; ?></span>
+                              <br><span>(<?php echo $rows['views']; ?> بازدید)</span>
                               </div>
                          </a>
                     </div>
