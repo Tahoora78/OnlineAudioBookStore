@@ -25,11 +25,11 @@ class UsersModel extends Model{
     public function check_login($username,$password){
         $user = $this->where('username', $username)->first();
         if($user){
-        return password_verify($password, $user['password']) ? $user : false;
+            return password_verify($password, $user['password']) ? $user : false;
         }else{
-        return false;
+            return false;
         }
-        }
+    }
     
     
     //--------------------------------------------------
@@ -40,5 +40,10 @@ class UsersModel extends Model{
     }
     
     //--------------------------------------------------
+
+
+    public function show_nameById($id){
+        return $this->where('id', $id)->select(['name'])->first();
+    }
 
 }
