@@ -41,7 +41,7 @@ $session = session();
 
 			<div class="ttr-logo-box">
 				<div>
-					<a href="index.html" class="ttr-logo">
+					<a href="<?php echo base_url(); ?>" class="ttr-logo">
 						<img alt="" class="ttr-logo-mobile"
 							src="<?php echo base_url(); ?>/theme/panel/images/logo-mobile.png" width="30"
 							height="30">
@@ -84,7 +84,7 @@ $session = session();
 			<nav class="ttr-sidebar-navi">
 				<ul>
 					<li>
-						<a href="index.html" class="icon-book-open">
+						<a href="<?php echo base_url('panel') ?>" class="icon-book-open">
 							<span class="ttr-icon"><i class="ti-book"></i></span>
 							<span class="ttr-label">خرید های من</span>
 						</a>
