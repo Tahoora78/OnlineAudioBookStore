@@ -110,6 +110,25 @@ $session = session();
 							</li>
 						</ul>
 					</li>
+					<?php if($session->get('login_user_id') == 23){ ?>
+					<li>
+						<a href="#" class="ttr-material-button">
+							<span class="ttr-icon"><i class="ti-write"></i></span>
+							<span class="ttr-label">بلاگ</span>
+							<span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
+						</a>
+						<ul>
+							<li>
+								<a href="<?php echo base_url('panel/blog') ?>" class="ttr-material-button"><span
+										class="ttr-label">لیست بلاگ ها</span></a>
+							</li>
+							<li>
+								<a href="<?php echo base_url('panel/blog/create') ?>" class="ttr-material-button"><span
+										class="ttr-label">ایجاد بلاگ</span></a>
+							</li>
+						</ul>
+					</li>
+					<?php } ?>
 					<li>
 						<a href="<?php echo base_url('panel/logout'); ?>" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-power-off"></i></span>
