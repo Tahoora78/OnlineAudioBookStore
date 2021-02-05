@@ -13,14 +13,6 @@
           <div class="row">
                <div class="col-md-12 text-center text-white">
                     <h2 class="py-5">فروشگاه آنلاین کتاب صوتی</h2>
-                    <form class="cours-search">
-                         <div class="input-group">
-                              <input type="text" class="form-control" placeholder="لطفا نام کتاب خود را بنویسید ...">
-                              <div class="input-group-append">
-                                   <button class="btn" type="submit">جستجو</button>
-                              </div>
-                         </div>
-                    </form>
                </div>
           </div>
           <div class="mw800 m-auto">
@@ -28,7 +20,7 @@
                     <div class="col-md-4 col-sm-6">
                          <div class="cours-search-bx m-b30">
                               <div class="icon-box">
-                                   <h3><i class="ti-book"></i><span class="counter">5</span></h3>
+                                   <h3><i class="ti-book"></i><span class="counter"><?php echo number_format(count($book)); ?></span></h3>
                               </div>
                               <span class="cours-search-text">کتاب</span>
                          </div>
@@ -36,7 +28,7 @@
                     <div class="col-md-4 col-sm-6">
                          <div class="cours-search-bx m-b30">
                               <div class="icon-box">
-                                   <h3><i class="ti-headphone"></i><span class="counter">30</span></h3>
+                                   <h3><i class="ti-headphone"></i><span class="counter"><?php echo $time_all ? number_format($time_all) : 0; ?></span></h3>
                               </div>
                               <span class="cours-search-text">دقیقه فایل صوتی</span>
                          </div>
@@ -44,7 +36,7 @@
                     <div class="col-md-4 col-sm-12">
                          <div class="cours-search-bx m-b30">
                               <div class="icon-box">
-                                   <h3><i class="ti-user"></i><span class="counter">20</span></h3>
+                                   <h3><i class="ti-user"></i><span class="counter"><?php echo $views_all ? number_format($views_all) : 0; ?></span></h3>
                               </div>
                               <span class="cours-search-text">نظرات خریداران</span>
                          </div>
