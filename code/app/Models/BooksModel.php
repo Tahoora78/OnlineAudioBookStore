@@ -43,4 +43,30 @@ class BooksModel extends Model{
         return $this->where('id', $id)->first();
     }
 
+
+    //--------------------------------------------------
+
+    
+    public function sum_Time(){
+		return $this->selectSum('time')->first();
+    }
+
+    public function sum_TimeByIdUsers($id_users){
+		return $this->where('id_users', $id_users)->selectSum('time')->first();
+    }
+
+
+    public function sum_Views(){
+		return $this->selectSum('views')->first();
+    }
+
+    public function sum_ViewsByIdUsers($id_users){
+		return $this->where('id_users', $id_users)->selectSum('views')->first();
+    }
+     
+    public function sum_JoinOrderByIdUsers($id_users){
+		return $this->where('books.id_users', $id_users)->join('orders',' orders.id_books = books.id')->countAllResults();
+    }
+    
+
 }
