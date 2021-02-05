@@ -96,6 +96,10 @@
                                         </li>
                                         <li><a href="<?php echo base_url('rules'); ?>">قوانین</a>
                                         </li>
+                                        <li><a href="<?php echo base_url('blog'); ?>">بلاگ</a>
+                                        </li>
+                                        <li><a href="<?php echo base_url('about'); ?>">درباره ما</a>
+                                        </li>
                                    </ul>
                                    <div class="nav-social-link">
                                         <a href="https://instagram.com/fidibobooks" target="_blank"><i
