@@ -27,7 +27,49 @@ class Blog extends BaseController
 	
      //--------------------------------------------------------------------
      
+     public function edit($id)
+	{
+          $this->auth();
+          $BlogsModel = new BlogsModel;
+		$blog = $BlogsModel->show_AllById($id);
+          if($blog){
+               return view('panel/blog_edit',['blog'=>$blog]);
+          }
+          header('Location:'.base_url('panel/blog'));
+          exit;
+     }
      
+
+     public function update($id)
+	{
+          $this->auth();
+          $session = session();
+          
+          $BlogsModel = new BlogsModel;
+          $blog = $BlogsModel->show_AllById($id);
+          
+          if(!$blog){
+               header('Location:'.base_url('panel/blog'));
+               exit;
+          }
+
+          $title = $_POST['title'];
+		$description = $_POST['description'];
+          $thumbnail = $this->request->getFile('thumbnail');
+
+          if($thumbnail->isValid()){
+               unlink($_SERVER['DOCUMENT_ROOT'].getenv('app.baseDirUpload').'/upload/blog/'.$blog['thumbnail']); 
+               $thumbnailNewName = $thumbnail->getRandomName();
+               $thumbnail->move($_SERVER['DOCUMENT_ROOT'].getenv('app.baseDirUpload').'/upload/blog',$thumbnailNewName);
+               $BlogsModel->update_ThumbnailById($id,$thumbnailNewName);
+          }
+
+		$id_Blog = $BlogsModel->update_AllById($id,$title,$description);
+
+		$session->set(['pm' => ['success','بلاگ شما با موفقیت ویرایش شد']]);
+		header('Location:'.base_url('panel/blog/'));
+		exit;
+	}
 
      //--------------------------------------------------------------------
 
