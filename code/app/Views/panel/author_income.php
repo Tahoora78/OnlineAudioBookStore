@@ -8,8 +8,6 @@
 
 <?php $this->section('content') ?>
 
-
-
 <div class="row">
      <!-- Your Profile Views Chart -->
      <div class="col-lg-8 m-b30">
@@ -18,7 +16,7 @@
                     <h4>درآمد من - نویسنده</h4>
                </div>
                <div class="widget-inner">
-                    <canvas id="chart" width="100" height="45"></canvas>
+                    <canvas id="income" width="100" height="45"></canvas>
                </div>
           </div>
      </div>
@@ -34,7 +32,7 @@
                               تومان
                          </span>
                          <span class="wc-stats">
-                              <span class="counter">200000</span>
+                              <span class="counter"><?php echo number_format($price_all); ?></span>
                          </span>
                     </div>
                </div>
@@ -51,7 +49,7 @@
                          </span>
                          <span class="wc-stats ">
                               <span class="counter">
-                                   120
+                              <?php echo $orders_all ? number_format($orders_all) : 0; ?>
                               </span>
                          </span>
                     </div>
@@ -67,7 +65,7 @@
                               بازدید
                          </span>
                          <span class="wc-stats counter">
-                              772
+                         <?php echo $views_all ? number_format($views_all) : 0; ?>
                          </span>
                     </div>
                </div>
@@ -82,12 +80,45 @@
                              دقیقه
                          </span>
                          <span class="wc-stats counter">
-                              350
+                         <?php echo $time_all ? number_format($time_all) : 0; ?>
                          </span>
                     </div>
                </div>
           </div>
      </div>
 </div>
+
+<?php $this->endSection() ?>
+
+
+
+<?php $this->section('js') ?>
+<script>
+
+var ctx = document.getElementById('income').getContext('2d');
+var chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: [<?php echo implode(",", $chrt_x); ?>],
+        datasets: [{
+               label: 'درآمد',
+               backgroundColor: 'rgba(0,0,0,0.05)',
+               borderColor: '#4c1864',
+               borderWidth: "3",
+               data: [196,132,215,362,210,252],
+               pointRadius: 4,
+               pointHoverRadius:4,
+               pointHitRadius: 10,
+               pointBackgroundColor: "#fff",
+               pointHoverBackgroundColor: "#fff",
+               pointBorderWidth: "3",
+               data: [<?php echo implode(",", $chrt_y); ?>]
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+</script>
 
 <?php $this->endSection() ?>
