@@ -28,6 +28,11 @@ class OrdersModel extends Model{
      public function show_AllByIdUsersJoinBooks($id_users){
           return $this->where('orders.id_users', $id_users)->join('books','orders.id_books = books.id')->select(['books.id','books.title','books.cover'])->findAll();
      }
+     
+     //--------------------------------------------------
 
+	public function sum_PriceByIdBooks($id_books){
+		return $this->where('id_books', $id_books)->selectSum('price')->first();
+	 }
 
 }
