@@ -3,6 +3,7 @@
 use CodeIgniter\Controller;
 use App\Controllers\BaseController;
 use App\Models\BooksModel;
+use App\Models\OrdersModel;
 
 class Author extends BaseController
 {
@@ -19,8 +20,26 @@ class Author extends BaseController
 
 	public function income()
 	{
-		$this->auth();
-		return view('panel/author_income');
+		$auth = $this->auth();
+
+		$BooksModel = new BooksModel;
+		$OrdersModel = new OrdersModel;
+		$book = $BooksModel->show_AllByIdUser($auth['id']);
+
+		$chrt_x = [];
+		$chrt_y = [];
+		$price_all = 0;
+		foreach($book as $rows){
+			$chrt_x[$rows['id']] = '"'.$rows['title'].'"';
+			$sum_price = $OrdersModel ->sum_PriceByIdBooks($rows['id']);
+			$chrt_y[$rows['id']] = '"'.$sum_price['price'].'"';
+			$price_all += $sum_price['price'];
+		}
+
+		$time_all = $BooksModel->sum_TimeByIdUsers($auth['id'])['time'];
+		$views_all = $BooksModel->sum_ViewsByIdUsers($auth['id'])['views'];
+		$orders_all = $BooksModel->sum_JoinOrderByIdUsers($auth['id']);
+		return view('panel/author_income',['chrt_x'=>$chrt_x,'chrt_y'=>$chrt_y,'price_all'=>$price_all,'time_all'=>$time_all,'views_all'=>$views_all,'orders_all'=>$orders_all]);
 	}
 
 	//--------------------------------------------------------------------
